@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tmp=/tmp
+wrk_spc=/Users/manishroy/.jenkins/workspace/MyJOB
 dep_dir=/u02
 
 if [ -d $dep_dir ]; then
@@ -9,7 +9,7 @@ fi
 
 mkdir $dep_dir
 
-cp -r /u01/app/* /u02/
+cp -r $wrk_spc/* /u02/
 chmod -R 755 /u02
 
 #Execution of script 
