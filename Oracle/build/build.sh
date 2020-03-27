@@ -26,7 +26,8 @@ sh $trg_dir/Oracle/hellworld1.sh
 
 #Build java project
 
-javac $trg_dir/Oracle/java/Manish.jar
+cd $trg_dir/Oracle/java
+javac Manish.jar
 java $trg_dir/Oracle/java/Manish
 
 echo "Build Is Successful" 
