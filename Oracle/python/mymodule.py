@@ -17,4 +17,6 @@ person1 = {
 "age": 36,
 "phone": 1234
 }
-
+def interest(p, r, t) :
+  i=((p*r*t))/100
+  print("Interest is :"+ i)  
