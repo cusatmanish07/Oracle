@@ -29,7 +29,7 @@ sh $trg_dir/Oracle/hellworld1.sh
 
 cd $trg_dir/Oracle/java
 javac Manish.jar
-java $trg_dir/Oracle/java/Manish
+java Manish
 
 echo "Build Is Successful" 
 
